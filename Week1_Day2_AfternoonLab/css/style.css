@@ -1,0 +1,33 @@
+nav {
+    display:inline;
+}
+
+#header {
+    background-color: lightgrey;
+    width:100vw;
+    height:40px;
+    animation: growright forwards 1 6s;
+    display: flex;
+    justify-content:flex-end;
+}
+
+.children {
+    width: 75px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@keyframes growright {
+    0% {
+        width: 300px;
+        background-color: blue;
+    }
+    100% {
+        width: 100vw;
+    }
+
+}
+body {
+    padding: 0 0 0 0;
+    margin: 0;
+}
