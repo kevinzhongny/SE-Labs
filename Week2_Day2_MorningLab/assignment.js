@@ -1,6 +1,6 @@
 //  1. Using a while loop, print out all prime numbers between 0 - 20
 
-let prime = 1;
+let prime = 1
 while (prime < 20) {
     let test = 2;
     while (prime >= test) {
