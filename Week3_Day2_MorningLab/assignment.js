@@ -24,7 +24,7 @@ console.log(shoppingList);
 
 const yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
 yoda.reverse();
-console.log(yoda.join(" "   ));
+console.log(yoda.join(" "));
 
 // 4. iPhone release
 
