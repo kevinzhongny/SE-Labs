@@ -23,8 +23,8 @@ console.log(shoppingList);
 // 3. Use the force, or in this case the reverse method to help Yoda make some sense with his motivational talk to the young Jedi interns.
 
 const yoda = ["try", "no", "is", "there", "not", "do", "or", "do"];
-const reverseYoda = yoda.reverse();
-console.log(reverseYoda);
+yoda.reverse();
+console.log(yoda.join(" "   ));
 
 // 4. iPhone release
 
