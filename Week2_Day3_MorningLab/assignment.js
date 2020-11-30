@@ -96,5 +96,5 @@ function vowelCount(vowelString) {
     }
 }
 
-console.log(vowelCount('testpilot'));
+console.log(vowelCount('UOIEAuoiea'));
 
