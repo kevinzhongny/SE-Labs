@@ -13,7 +13,6 @@ form.addEventListener('submit', (e) => {
             break;
         }
     }
-    function calcResult()
     const result = (a, b, operator) => {
         if (operator = '+') {
             return a + b;
@@ -26,7 +25,7 @@ form.addEventListener('submit', (e) => {
         }
     }
 
-    console.log(result(selectedValue));
+    console.log(result);
 
     console.log(firstNum, secondNum);
 })
