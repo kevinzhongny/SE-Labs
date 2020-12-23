@@ -67,16 +67,16 @@ class App extends React.Component {
 
 class Receipt extends App {
     render () {
-        console.log(this.props.receipt.order.paid)
+        console.log(this.receipt.order.paid)
         return (
             <div>
-                <h2>{this.props.receipt.person}</h2>
-                <h5><span>Main: </span>{this.props.receipt.order.main}</h5>
-                <h5><span>Protein: </span>{this.props.receipt.order.protein}</h5>
-                <h5><span>Rice: </span>{this.props.receipt.order.rice}</h5>
-                <h5><span>Sauce: </span>{this.props.receipt.order.sauce}</h5>
-                <h5><span>Drink: </span>{this.props.receipt.order.drink}</h5>
-                <h5><span>Cost: </span>{this.props.receipt.order.cost}</h5>
+                <h2>{this.receipt.person}</h2>
+                <h5><span>Main: </span>{this.receipt.order.main}</h5>
+                <h5><span>Protein: </span>{this.receipt.order.protein}</h5>
+                <h5><span>Rice: </span>{this.receipt.order.rice}</h5>
+                <h5><span>Sauce: </span>{this.receipt.order.sauce}</h5>
+                <h5><span>Drink: </span>{this.receipt.order.drink}</h5>
+                <h5><span>Cost: </span>{this.receipt.order.cost}</h5>
             </div>
         )
     }
